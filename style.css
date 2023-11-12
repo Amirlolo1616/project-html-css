@@ -1,0 +1,130 @@
+html {
+    font-size: 62.5%;
+    background-image: url('img/Free-pink-gradient-aesthetic-background-from-Fotor.webp');
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: green;
+}
+
+.username,
+.department,
+.yourself,
+.pass {
+    font-size: 2.3rem;
+    color: black;
+    margin-right: 2rem;
+
+}
+
+input {
+    border: 2px solid black;
+    color: black;
+    margin-bottom: 2rem;
+
+}
+
+.yourself2 {
+    width: 20rem;
+    height: 15rem;
+    border: 2px solid black;
+
+}
+
+.favorite-topics,
+.movie p {
+    font-size: 2.5rem;
+}
+
+.exercise {
+    font-size: 1.5rem;
+
+}
+
+label {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.btn {
+    position: absolute;
+    padding: 1rem;
+}
+
+.button {
+    position: relative;
+    border: none;
+    width: 13rem;
+    height: 5rem;
+    background-color: orangered;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: all 0.5s;
+    padding: 1rem;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 0%;
+    transition: all 0.5s;
+    z-index: -1;
+    border-radius: 5px;
+    border-top: 3px solid orangered;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 0%;
+    transition: all 0.5s;
+    border-radius: 5px;
+    z-index: -1;
+    border-top: 3px solid orangered;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: orangered;
+}
+
+.button:hover::after .button:hover::before {
+    width: 100%;
+}
+
+/* footer */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    font-size: 2.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.menu a {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 3rem;
+    color: black;
+    transition: color .2s ease;
+    padding: 3px 0;
+    margin-bottom: 1.5rem;
+}
